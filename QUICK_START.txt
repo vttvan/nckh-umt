@@ -1,0 +1,85 @@
+═══════════════════════════════════════════════════════════════
+  HỆ THỐNG QUẢN LÝ NCKH - UMT
+  HƯỚNG DẪN KHỞI ĐỘNG NHANH
+═══════════════════════════════════════════════════════════════
+
+📦 YÊU CẦU:
+- Node.js 18+ (tải tại: https://nodejs.org/)
+- npm (đi kèm với Node.js)
+
+🚀 CÀI ĐẶT VÀ CHẠY (3 BƯỚC):
+
+1. Giải nén file và mở Terminal/CMD tại thư mục dự án
+
+2. Cài đặt dependencies:
+   npm install
+
+3. Chạy ứng dụng:
+   npm run dev
+
+4. Mở trình duyệt tại: http://localhost:5173
+
+🔐 TÀI KHOẢN DEMO (mật khẩu tất cả: demo123):
+
+┌─────────────────────────┬──────────────────┐
+│ Email                   │ Vai trò          │
+├─────────────────────────┼──────────────────┤
+│ nvana@umt.edu.vn        │ Giảng viên       │
+│ ttbinh@umt.edu.vn       │ Lãnh đạo Khoa    │
+│ lvcuong@umt.edu.vn      │ Phòng KHCN       │
+│ ptdung@umt.edu.vn       │ Ban Giám hiệu    │
+│ admin@umt.edu.vn        │ Quản trị viên    │
+└─────────────────────────┴──────────────────┘
+
+✨ TÍNH NĂNG CHÍNH:
+
+👨‍🏫 GIẢNG VIÊN:
+  ✓ Xem danh sách sản phẩm KHCN
+  ✓ Theo dõi trạng thái phê duyệt
+  ✓ Thống kê giờ NCKH cá nhân
+
+👔 LÃNH ĐẠO KHOA:
+  ✓ Phê duyệt sản phẩm KHCN cấp Khoa
+  ✓ Thêm nhận xét và yêu cầu chỉnh sửa
+  ✓ Xem sản phẩm của giảng viên trong Khoa
+
+🏢 PHÒNG KHCN:
+  ✓ Phê duyệt cuối cùng
+  ✓ Công nhận giờ NCKH
+  ✓ Quản lý toàn hệ thống
+
+📊 DANH MỤC SẢN PHẨM:
+
+Bài báo quốc tế:
+- Q1: 1170 giờ
+- Q2: 935 giờ  
+- Q3: 700 giờ
+- Q4: 350 giờ
+
+Đề tài nghiên cứu:
+- Quốc tế: 2340 giờ
+- Nhà nước: 2040 giờ
+- Bộ: 1460 giờ
+- Tỉnh: 870 giờ
+- Trường: 295 giờ
+
+⚠️ LƯU Ý:
+- Đây là mockup demo, không kết nối backend thực
+- Dữ liệu là dữ liệu mẫu
+- Một số tính năng đang phát triển
+
+📚 TÀI LIỆU:
+- README.md: Tổng quan dự án
+- INSTALL.md: Hướng dẫn cài đặt chi tiết
+
+💡 XỬ LÝ LỖI:
+- Port 5173 đã dùng: Dừng process hoặc đổi port
+- Module not found: npm install lại
+- EACCES error: Kiểm tra quyền truy cập
+
+🌐 CÔNG NGHỆ:
+React 18 + TypeScript + Vite + Tailwind CSS + React Router
+
+═══════════════════════════════════════════════════════════════
+  Chúc bạn sử dụng thành công! 🎉
+═══════════════════════════════════════════════════════════════
