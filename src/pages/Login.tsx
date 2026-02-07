@@ -90,7 +90,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
             </button>
           </form>
 
-          <div className="mt-8 pt-6 border-t border-gray-200">
+          {/* <div className="mt-8 pt-6 border-t border-gray-200">
             <p className="text-sm text-gray-600 mb-3 font-semibold">Tài khoản demo (mật khẩu: demo123):</p>
             <div className="space-y-2 text-sm">
               {mockUsers.map(user => (
@@ -105,7 +105,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
