@@ -1,4 +1,4 @@
-# Hệ thống Quản lý NCKH - UMT
+# Hệ thống Quản lý NCKH - UMT (for Demonstration only)
 
 Hệ thống Quản lý hoạt động Nghiên cứu Khoa học cho Trường Đại học Quản lý và Công nghệ TP.HCM (UMT)
 
@@ -52,10 +52,10 @@ Tất cả tài khoản đều có mật khẩu: **demo123**
 
 | Email | Vai trò | Mô tả |
 |-------|---------|-------|
-| nvana@umt.edu.vn | Giảng viên | TS. Nguyễn Văn An - Khoa CNTT |
-| ttbinh@umt.edu.vn | Lãnh đạo Khoa | PGS.TS. Trần Thị Bình - Trưởng khoa CNTT |
-| lvcuong@umt.edu.vn | Phòng KHCN | TS. Lê Văn Cường |
-| ptdung@umt.edu.vn | Ban Giám hiệu | PGS.TS. Phạm Thị Dung |
+| an.nguyen@umt.edu.vn | Giảng viên | TS. Nguyễn Văn An - Khoa Công nghệ |
+| thu.tran@umt.edu.vn | Lãnh đạo Khoa | PGS.TS. Trần Thị Bình - Trưởng khoa Công nghệ |
+| hung.ngo@umt.edu.vn | Phòng KHCN | TS. Ngô Minh Hùng |
+| tuan.nguyen@umt.edu.vn | Ban Giám hiệu | TS. Nguyễn Cảnh Tuấn |
 | admin@umt.edu.vn | Quản trị viên | Admin |
 
 ## 📦 Công nghệ sử dụng
