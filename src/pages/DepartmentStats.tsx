@@ -7,7 +7,6 @@ import {
   FileText,
   Award,
   Download,
-  Calendar,
   BarChart3,
   Target,
   PieChart

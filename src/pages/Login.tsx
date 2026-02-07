@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { User } from '../types';
 import { mockUsers } from '../data/mockData';
-import { LogIn, GraduationCap } from 'lucide-react';
+import { LogIn } from 'lucide-react';
 
 interface LoginProps {
   onLogin: (user: User) => void;

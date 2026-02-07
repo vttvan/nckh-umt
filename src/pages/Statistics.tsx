@@ -10,16 +10,15 @@ import {
   PieChart,
   Building2,
   Users as UsersIcon,
-  Calendar,
-  Filter,
-  Target
+  Target,
+  Calendar
 } from 'lucide-react';
 
 interface StatisticsProps {
   currentUser: User;
 }
 
-const Statistics: React.FC<StatisticsProps> = ({ currentUser }) => {
+const Statistics: React.FC<StatisticsProps> = () => {
   const [selectedYear, setSelectedYear] = useState('2024-2025');
   const [selectedDept, setSelectedDept] = useState('all');
   const [viewMode, setViewMode] = useState<'overview' | 'department' | 'type'>('overview');

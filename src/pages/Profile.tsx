@@ -4,8 +4,7 @@ import { mockResearchProducts } from '../data/mockData';
 import { 
   FileText, 
   Award, 
-  TrendingUp, 
-  Calendar,
+  TrendingUp,
   Download,
   Edit,
   Plus

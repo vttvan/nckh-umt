@@ -7,18 +7,17 @@ import {
   FileText,
   Award,
   BarChart3,
-  Calendar,
   Building2,
   Target,
   Download,
-  TrendingDown
+  Calendar
 } from 'lucide-react';
 
 interface RectorDashboardProps {
   currentUser: User;
 }
 
-const RectorDashboard: React.FC<RectorDashboardProps> = ({ currentUser }) => {
+const RectorDashboard: React.FC<RectorDashboardProps> = () => {
   const [selectedYear, setSelectedYear] = useState('2024-2025');
   
   // Tính toán thống kê

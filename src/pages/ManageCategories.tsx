@@ -15,15 +15,15 @@ interface ManageCategoriesProps {
   currentUser: User;
 }
 
-const ManageCategories: React.FC<ManageCategoriesProps> = ({ currentUser }) => {
+const ManageCategories: React.FC<ManageCategoriesProps> = () => {
   const [categories, setCategories] = useState<ProductCategory[]>(initialCategories);
   const [showForm, setShowForm] = useState(false);
   const [editingCategory, setEditingCategory] = useState<ProductCategory | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [filterType, setFilterType] = useState<'all' | 'paper' | 'project'>('all');
   
-  const [formData, setFormData] = useState({
-    type: '' as ProductType | '',
+  const [formData, setFormData] = useState<ProductCategory>({
+    type: 'Q1',
     name: '',
     hours: 0,
     description: ''
@@ -78,7 +78,7 @@ const ManageCategories: React.FC<ManageCategoriesProps> = ({ currentUser }) => {
     setShowForm(false);
     setEditingCategory(null);
     setFormData({
-      type: '',
+      type: 'Q1',
       name: '',
       hours: 0,
       description: ''

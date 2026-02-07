@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { User, RegistrationPeriod } from '../types';
 import { registrationPeriods as initialPeriods } from '../data/mockData';
 import { 
-  Calendar, 
   Plus, 
   Edit, 
   Trash2,
@@ -15,7 +14,7 @@ interface ManagePeriodsProps {
   currentUser: User;
 }
 
-const ManagePeriods: React.FC<ManagePeriodsProps> = ({ currentUser }) => {
+const ManagePeriods: React.FC<ManagePeriodsProps> = () => {
   const [periods, setPeriods] = useState<RegistrationPeriod[]>(initialPeriods);
   const [showForm, setShowForm] = useState(false);
   const [editingPeriod, setEditingPeriod] = useState<RegistrationPeriod | null>(null);

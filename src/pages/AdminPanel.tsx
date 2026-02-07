@@ -2,13 +2,11 @@ import React, { useState } from 'react';
 import { User, UserRole } from '../types';
 import { mockUsers as initialUsers } from '../data/mockData';
 import {
-  Users,
   Plus,
   Edit,
   Trash2,
   Search,
   Shield,
-  UserCheck,
   UserX,
   Settings,
   Mail,
