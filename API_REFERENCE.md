@@ -46,7 +46,7 @@ Authorization: Bearer {token}
       "name": "TS. Nguyễn Văn An",
       "email": "nvana@umt.edu.vn",
       "role": "lecturer",
-      "department": "Khoa Công nghệ Thông tin"
+      "department": "Khoa Công nghệ"
     }
   }
 }
@@ -92,7 +92,7 @@ Lấy thông tin user hiện tại
     "name": "TS. Nguyễn Văn An",
     "email": "nvana@umt.edu.vn",
     "role": "lecturer",
-    "department": "Khoa Công nghệ Thông tin"
+    "department": "Khoa Công nghệ"
   }
 }
 ```
@@ -142,7 +142,7 @@ GET /products?page=1&limit=10&status=pending_dean&department=Khoa CNTT
         "status": "pending_dean",
         "hours": 1170,
         "evidence": ["paper_q1_001.pdf"],
-        "department": "Khoa Công nghệ Thông tin",
+        "department": "Khoa Công nghệ",
         "createdAt": "2025-02-05T10:30:00Z",
         "updatedAt": "2025-02-05T10:30:00Z"
       }
@@ -176,7 +176,7 @@ Lấy chi tiết một sản phẩm
     "status": "pending_dean",
     "hours": 1170,
     "evidence": ["paper_q1_001.pdf"],
-    "department": "Khoa Công nghệ Thông tin",
+    "department": "Khoa Công nghệ",
     "journalName": "IEEE Transactions...",
     "doi": "10.1109/...",
     "issn": "2162-237X",
@@ -653,7 +653,7 @@ year: string (2024-2025)
       "id": "1",
       "name": "TS. Nguyễn Văn An",
       "email": "nvana@umt.edu.vn",
-      "department": "Khoa Công nghệ Thông tin",
+      "department": "Khoa Công nghệ",
       "position": "Giảng viên",
       "degree": "Tiến sĩ",
       "major": "Công nghệ Thông tin"
@@ -739,7 +739,7 @@ Thống kê tổng quan
       ...
     },
     "byDepartment": {
-      "Khoa Công nghệ Thông tin": 60,
+      "Khoa Công nghệ": 60,
       "Khoa Kinh tế": 40,
       "Khoa Kỹ thuật": 50
     }
@@ -757,7 +757,7 @@ Thống kê theo Khoa
 {
   "success": true,
   "data": {
-    "department": "Khoa Công nghệ Thông tin",
+    "department": "Khoa Công nghệ",
     "totalProducts": 60,
     "totalHours": 70000,
     "byLecturer": [
