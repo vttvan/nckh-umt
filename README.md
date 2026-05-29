@@ -1,6 +1,6 @@
-# Hệ thống Quản lý NCKH - UMT (for Demonstration only)
+# Hệ thống Quản lý NCKH (for Demonstration only)
 
-Hệ thống Quản lý hoạt động Nghiên cứu Khoa học cho Trường Đại học Quản lý và Công nghệ TP.HCM (UMT)
+Hệ thống Quản lý hoạt động Nghiên cứu Khoa học
 
 ## 📋 Mô tả
 
